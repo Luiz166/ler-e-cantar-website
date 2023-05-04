@@ -10,57 +10,57 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <img src="images/logo_etec.png" />
+    <div id="section1" class="container">
+        <div class="logo">
+            <img src="images/logo_etec.png" alt="logo">
         </div>
-    </nav>
+        <h1 class="title">
+            Projeto Ler e Cantar 23
+        </h1>
+        <span class="spanText">Tema: Fome</span>
 
-    <div class="container">
-        <section id="upperSide">f
-            <h1>Projeto Ler e Cantar 2023</h1>
-            <span>
-                Tema:
-                <span id="spanTheme">Fome</span>
-            </span>
-        </section>
-
-        <!--area das imagens de cada tema-->
-        <section class="imagesSection">
+        <!--cards-->
+        <section class="cardsSection">
             <div class="card">
-                <a href="" class="cardImage">
-                    <img src="images/example1.jpg" alt="">
+                <a href="#section2">
+                    <img src="images/example1.jpg" alt="card1">
                 </a>
-                <span id="themeName">Exemplo 1</span> <!--nome do tema-->
+                <span class="cardTitle">Example 1</span>
             </div>
             <div class="card">
-                <a href="" class="cardImage">
-                    <img src="images/example2.jpg" alt="">
+                <a href="#section3">
+                    <img src="images/example2.jpg" alt="card1">
                 </a>
-                <span id="themeName">Exemplo 2</span> <!--nome do tema-->
+                <span class="cardTitle">Example 2</span>
             </div>
         </section>
-        <!--area das informações sobre cada tema-->
-        <section class="aboutTheme">
-            <ul>
-                <li class="item">
-                    Exemplo 1
-                    <ul>
-                        <li class="subItem">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolorum iste quos, animi
-                        </li>
-                    </ul>
-                </li>
-                <li class="item">
-                    Exemplo 2
-                    <ul>
-                        <li class="subItem">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolorum iste quos, animi
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+    </div>
+    <!--about the cards-->
+    <div id="section2" class="container">
+        <div class="sectionBackground">
+            <img src="images/example1.jpg" alt="example1Img">
+        </div>
+        <h1 id="sectionTitle" class="title">
+            Example 1
+        </h1>
+        <p class="aboutCard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus quod reiciendis id, officiis
+            provident fugiat iure vel ea, ducimus non, odio dolor adipisci nam similique blanditiis ipsum! Facilis,
+            quam.
+        </p>
+    </div>
+    <div id="section3" class="container">
+        <div class="sectionBackground">
+            <img src="images/example2.jpg" alt="example1Img">
+        </div>
+        <h1 style="color: white;" id="sectionTitle" class="title">
+            Example 2
+        </h1>
+        <p style="color: white;" class="aboutCard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus quod reiciendis id, officiis
+            provident fugiat iure vel ea, ducimus non, odio dolor adipisci nam similique blanditiis ipsum! Facilis,
+            quam.
+        </p>
     </div>
 </body>
 
