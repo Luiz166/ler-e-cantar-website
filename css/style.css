@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,47 +8,86 @@
     font-family: montserrat, sans-serif;
 }
 
-:root{
+:root {
     --branco: #F6F5F3;
     --preto: #2E282A;
+    --primary: #0078A3;
+    --secondary: #EF2E2E;
 }
 
-html{scroll-behavior: smooth;}
-
-body{background-color: var(--branco);}
-
-.container{
-    padding: 1.5rem;
+html {
+    scroll-behavior: smooth;
 }
 
-#section1{
+body {
+    background-color: var(--branco);
+}
+
+.floatingBtn {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+
+.floatingBtn button {
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav {
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.bgText {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    padding: 1rem;
+}
+
+#section1 {
     height: 100vh;
+    margin-top: 12rem;
 }
 
-.title{
+.title {
     font-weight: 800;
     font-size: 1.8rem;
 }
 
-.spanText{
+.spanText {
     font-weight: 600;
     font-size: 1.3rem;
 }
 
-.logo{
-    margin: 0 auto;
-    width: 14rem;
+.logo {
+    width: 15rem;
     height: 8rem;
 }
 
-.logo img{
+.logo img {
     object-fit: cover;
     object-position: center;
     width: 100%;
     height: 100%;
 }
 
-.cardsSection{
+.cardsSection {
     margin-top: 2rem;
     display: flex;
     width: 100%;
@@ -58,13 +97,13 @@ body{background-color: var(--branco);}
     gap: 1rem;
 }
 
-.card{
+.card {
     width: 30rem;
     height: 15rem;
     position: relative;
 }
 
-.card img{
+.card img {
     border-radius: 1rem;
     width: 100%;
     height: 100%;
@@ -72,7 +111,7 @@ body{background-color: var(--branco);}
     object-position: center;
 }
 
-.cardTitle{
+.cardTitle {
     position: absolute;
     color: var(--branco);
     font-size: 1.5rem;
@@ -81,15 +120,7 @@ body{background-color: var(--branco);}
     bottom: 10%;
 }
 
-#section2{
-    height: 100vh;
-    position: relative;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-direction: column;
-}
-#section3{
+#section2 {
     height: 100vh;
     position: relative;
     display: flex;
@@ -98,22 +129,32 @@ body{background-color: var(--branco);}
     flex-direction: column;
 }
 
-.sectionBackground{
+#section3 {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sectionBackground {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     z-index: -100;
 }
 
-.sectionBackground img{
+.sectionBackground img {
     object-fit: cover;
     object-position: center;
     width: 100%;
     height: 100%;
 }
 
-.aboutCard{
+.aboutCard {
     font-size: 1.3rem;
     font-weight: 500;
 }
