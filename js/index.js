@@ -1,6 +1,5 @@
 const goTopBtn = document.querySelector('#goTopBtn');
 
-let i = 0;
 
 //hiding button
 window.addEventListener('scroll', () =>{
