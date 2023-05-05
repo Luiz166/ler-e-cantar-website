@@ -12,6 +12,7 @@
     --branco: #F6F5F3;
     --preto: #2E282A;
     --primary: #0078A3;
+    --primary-darker: #00526f;
     --secondary: #EF2E2E;
 }
 
@@ -30,12 +31,18 @@ body {
 }
 
 .floatingBtn button {
+    cursor: pointer;
     border: none;
     background-color: var(--primary);
     color: white;
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+    transition: all 200ms ease-in-out;
+}
+
+.floatingBtn button:hover{
+    background-color: var(--primary-darker);
 }
 
 .nav {
@@ -61,7 +68,7 @@ body {
 }
 
 #section1 {
-    height: 100vh;
+    height: fit-content;
     margin-top: 12rem;
 }
 
@@ -95,6 +102,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card {
