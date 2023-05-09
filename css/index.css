@@ -20,8 +20,7 @@
     flex-direction: row !important;
 }
 
-.cardSingleColor:hover{
-    background-color: var(--primary-darker);
+.card:hover{
+    width: 35rem;
+    height: 20rem;
 }
-
-.cardSingleColorText{color: var(--branco); font-weight: 600;}
