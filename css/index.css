@@ -1,0 +1,27 @@
+@import url(main.css);
+
+.container{ /* RESPOSIVE */
+    margin-top: 12rem;
+    padding: 2rem;
+}
+
+.cardSingleColor{
+    background-color: var(--primary);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+.cardsSection{
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    flex-direction: row !important;
+}
+
+.cardSingleColor:hover{
+    background-color: var(--primary-darker);
+}
+
+.cardSingleColorText{color: var(--branco); font-weight: 600;}

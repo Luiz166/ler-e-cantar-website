@@ -1,0 +1,7 @@
+@media only screen and (min-width: 1440px){ /* PC */
+    .title{font-size: 2.5rem;}
+    .cardSingleColor{
+        padding: 2rem;
+    }
+    .cardSingleColorText{font-size: 2rem;}
+}
