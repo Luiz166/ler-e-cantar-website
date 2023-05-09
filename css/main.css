@@ -54,6 +54,16 @@ body {
     font-size: 1.8rem;
 }
 
+.subTitle {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.paragraph{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 .cardsSection {
     margin-top: 2rem;
     display: flex;
