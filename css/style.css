@@ -39,29 +39,6 @@
     margin-top: 12rem;
 }
 
-.card {
-    width: 30rem;
-    height: 15rem;
-    position: relative;
-}
-
-.card img {
-    border-radius: 1rem;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.cardTitle {
-    position: absolute;
-    color: var(--branco);
-    font-size: 1.5rem;
-    font-weight: 700;
-    left: 5%;
-    bottom: 10%;
-}
-
 #section2 {
     height: 100vh;
     position: relative;
