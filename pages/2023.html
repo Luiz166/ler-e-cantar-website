@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/2023.css">
+    <link rel="stylesheet" href="../css/2023-responsive.css">
     <title>Ler e Cantar 2023</title>
 </head>
 
@@ -23,47 +23,71 @@
         <h1 class="title">
             Projeto Ler e Cantar 23
         </h1>
-        <span class="subTitle">Tema: Fome</span>
+        <span class="subTitle" id="themeSpan">Tema: Fome</span>
 
         <!--cards-->
         <section class="cardsSection">
+            <h1 class="title">Programação do Dia</h1>
             <div class="card">
                 <a href="#section2">
-                    <img src="../images/example1.jpg" alt="card1">
+                    <img src="../images/cards/brooks-leibee-Poem.jpg" alt="card1">
                 </a>
-                <span class="cardTitle">Example 1</span>
+                <span class="cardTitle">Poema</span>
             </div>
             <div class="card">
                 <a href="#section3">
-                    <img src="../images/example2.jpg" alt="card1">
+                    <img src="../images/cards/marius-masalar-Music.jpg" alt="card1">
                 </a>
-                <span class="cardTitle">Example 2</span>
+                <span class="cardTitle">Música</span>
+            </div>
+            <div class="card bg-">
+                <a href="#section4">
+                    <img src="../images/cards/samantha-weisburg-Dance.jpg" alt="card1">
+                </a>
+                <span class="cardTitle">Dança</span>
             </div>
         </section>
     </div>
     <!--about the cards-->
-    <div id="section2" class="container">
+    <div id="section2" class="container sectionAboutCard">
         <div class="sectionBackground">
-            <img src="../images/example1.jpg" alt="example1Img">
+            <img src="../images/cards/brooks-leibee-Poem.jpg" alt="example1Img">
         </div>
         <div class="bgText aboutCardContent">
             <h1 id="sectionTitle" class="title">
-                Example 1
+                Poema
             </h1>
             <p class="aboutCard">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus quod reiciendis id, officiis
-                provident fugiat iure vel ea, ducimus non, odio dolor adipisci nam similique blanditiis ipsum! Facilis,
-                quam.
+                Os alunos irão recitar poemas feitos por eles, falando sobre a importância do tema e suas dificuldades
             </p>
         </div>
     </div>
-    <div id="section3" class="container">
+    <div id="section3" class="container sectionAboutCard">
         <div class="sectionBackground">
-            <img src="../images/example2.jpg" alt="example1Img">
+            <img src="../images/cards/marius-masalar-Music.jpg" alt="example1Img">
         </div>
         <div class="bgText aboutCardContent">
             <h1 id="sectionTitle" class="title">
-                Example 2
+                Música
+            </h1>
+            <div class="aboutCard">
+                Algumas musicas que serão tocadas
+                <ul>
+                    <li>Vidas secas</li>
+                    <li>Que país é esse</li>
+                    <li>O Papa é pop</li>
+                    <li>Xibom BomBom</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="section4" class="container sectionAboutCard">
+        <div class="sectionBackground">
+            <img src="../images/cards/samantha-weisburg-Dance.jpg" alt="example1Img">
+        </div>
+        <div class="bgText aboutCardContent">
+            <h1 id="sectionTitle" class="title">
+                Dança
             </h1>
             <p class="aboutCard">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus quod reiciendis id, officiis
