@@ -14,6 +14,22 @@
     --primary: #0078A3;
     --primary-darker: #00526f;
     --secondary: #EF2E2E;
+    --warning: #F4AC45;
+    --info: #247BA0;
+}
+
+/* COLORS */
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+.bg-warning{
+    background-color: var(--warning) !important;
+}
+.bg-info{
+    background-color: var(--info) !important;
 }
 
 html {
@@ -80,6 +96,7 @@ body {
     height: 15rem;
     position: relative;
     transition: all 250ms ease-in-out;
+    border-radius: 1rem;
 }
 
 .card img {
@@ -97,4 +114,13 @@ body {
     font-weight: 700;
     left: 5%;
     bottom: 10%;
+}
+
+.sectionAboutCard{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
 }
