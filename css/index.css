@@ -14,10 +14,10 @@
 }
 
 .cardsSection{
-    padding: 1rem;
     flex-wrap: wrap;
     justify-content: flex-start !important;
     flex-direction: row !important;
+    margin-top: 2rem;
 }
 
 .card:hover{
