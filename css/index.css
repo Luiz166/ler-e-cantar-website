@@ -1,0 +1,26 @@
+@import url(main.css);
+
+.container{ /* RESPOSIVE */
+    margin-top: 12rem;
+    padding: 2rem;
+}
+
+.cardSingleColor{
+    background-color: var(--primary);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+.cardsSection{
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    flex-direction: row !important;
+    margin-top: 2rem;
+}
+
+.card:hover{
+    width: 35rem;
+    height: 20rem;
+}

@@ -1,0 +1,9 @@
+@media only screen and (min-width: 1440px){ /* PC */
+    .title{font-size: 3rem;}
+    .subTitle{font-size: 2rem; display: block; margin: 1rem 0 .5rem 0;}
+    .paragraph{margin-bottom: 1rem;}
+    .cardSingleColor{
+        padding: 2rem;
+    }
+    .cardSingleColorText{font-size: 2rem;}
+}
