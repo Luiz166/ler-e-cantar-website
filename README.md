@@ -1,1 +1,3 @@
-### ler-e-cantar-website
+# *Ler e Cantar*
+## O que é?
+    * O Projeto Ler e Cantar é uma programa escolar artístico e cultural que busca explorar a relação sinestésica entre as vias da arte, por meio da performance de leituras de textos criados, apresentação de peças teatrais criadas pelos alunos e acompanhadas de composições musicais e coreografias originais ou de interpretações de canções que dialoguem com as temáticas abordadas nos textos selecionados. O projeto almeja promover uma experiência estética imersiva e multidisciplinar para o público, fomentando a apreciação e a reflexão crítica sobre a intersecção entre diferentes formas de expressão artística e sua capacidade de evocar emoções e significados profundos.
