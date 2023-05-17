@@ -7,3 +7,15 @@
     }
     .cardSingleColorText{font-size: 2rem;}
 }
+
+@media only screen and (max-width: 600px){ /* MOBILE */
+    .container{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .cardsSection{
+        justify-content: center !important;
+    }
+}
