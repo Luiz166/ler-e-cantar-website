@@ -28,6 +28,9 @@
     .aboutCard{
         font-size: 2rem;
     }
+    .aboutCard ul li{
+        font-size: 1.7rem;
+    }
     .aboutCardContent{
         max-width: 760px;
         margin: 0 auto;
