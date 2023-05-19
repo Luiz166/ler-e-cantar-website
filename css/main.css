@@ -111,7 +111,6 @@ body {
 }
 
 .card {
-    width: 30rem;
     height: 15rem;
     position: relative;
     transition: all 250ms ease-in-out;
