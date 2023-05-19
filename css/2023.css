@@ -1,9 +1,5 @@
 @import url(main.css);
 
-#themeSpan{
-    color: var(--info);
-    font-weight: 800;
-}
 
 .floatingBtn {
     position: fixed;
@@ -60,7 +56,7 @@
 }
 
 .aboutCard {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
