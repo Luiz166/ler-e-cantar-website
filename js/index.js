@@ -22,3 +22,9 @@ const goTop = () => {
         window.scrollTo({top: 0});
     }
 }
+
+new fullpage('#fullpage', {
+    //options here
+    autoScrolling:true,
+    scrollHorizontally: true
+});
