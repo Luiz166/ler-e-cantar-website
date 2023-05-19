@@ -17,12 +17,7 @@
     flex-wrap: wrap;
     justify-content: flex-start !important;
     flex-direction: row !important;
-    margin-top: 2rem;
-}
-
-.card:hover{
-    width: 35rem;
-    height: 20rem;
+    border-radius: 1rem;
 }
 
 .videoWrapper{
@@ -38,3 +33,15 @@
     height: 100%;
     border-radius: 1rem;
 }
+
+.title{
+    display: block;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.subTitle{
+    display: block;
+    text-align: center;
+}
+

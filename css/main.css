@@ -18,6 +18,12 @@
     --info: #247BA0;
 }
 
+.bgText {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, .75);
+}
+
 /* COLORS */
 .bg-primary{
     background-color: var(--primary) !important;
@@ -52,6 +58,10 @@ body {
     z-index: 100;
 }
 
+.mt-1{
+    margin-top: 1rem;
+}
+
 
 .logo {
     width: 15rem;
@@ -80,8 +90,11 @@ body {
     font-weight: 500;
 }
 
+#pageTitle{
+    font-size: 2.4rem;
+}
+
 .cardsSection {
-    margin-top: 2rem;
     display: flex;
     width: 100%;
     align-items: center;
