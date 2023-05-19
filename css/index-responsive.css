@@ -30,6 +30,8 @@
 
     .cardsSection{
         padding: .5rem;
+        max-width: 1350px;
+        margin: 0 auto;
     }
 
     .card:hover {
@@ -67,4 +69,5 @@
         width: 90vw;
         height: 20rem;
     }
+
 }
