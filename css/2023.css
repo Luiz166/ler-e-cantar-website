@@ -27,16 +27,17 @@
 }
 
 
-
-
 .container {
     padding: 1rem;
 }
 
 #section1 {
-    height: fit-content;
-    margin-top: 12rem;
     text-align: center;
+    justify-content: start;
+}
+
+#section1 .cardsSection {
+    margin-top: auto;
 }
 
 
