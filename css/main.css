@@ -10,7 +10,7 @@
 
 :root {
     --branco: #F6F5F3;
-    --preto: #2E282A;
+    --preto: #0A0A0A;
     --primary: #0078A3;
     --primary-darker: #00526f;
     --secondary: #EF2E2E;
@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary);
+    background-color: var(--preto);
     position: fixed;
     top: 0;
     z-index: 100;
