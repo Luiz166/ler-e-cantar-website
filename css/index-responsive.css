@@ -1,33 +1,69 @@
-@media only screen and (min-width: 1440px){ /* PC */
-    .title{font-size: 3rem;}
-    .subTitle{font-size: 2rem; display: block; margin: 1rem 0 .5rem 0;}
-    .paragraph{margin-bottom: 1rem;}
-    .videoWrapper{
+@media only screen and (min-width: 1440px) {
+
+    /* PC */
+    #pageTitle{
+        font-size: 4rem;
+    }
+    .title {
+        font-size: 3rem;
+    }
+
+    .subTitle {
+        font-size: 2rem;
+        display: block;
+        margin: 1rem 0 .5rem 0;
+    }
+
+    .paragraph {
+        margin-bottom: 1rem;
+    }
+
+    .videoWrapper {
         width: 60vw;
         height: 50rem;
     }
-    .card{
-        width: 35rem;
-        height: 20rem;
+
+    .card {
+        width: 25rem;
+        height: 40rem;
     }
-    .card:hover{
-        width: 40rem;
-        height: 25rem;
+
+    .cardsSection{
+        padding: .5rem;
     }
-    .cardTitle{font-size: 1.8rem;}
+
+    .card:hover {
+        width: 30rem;
+        height: 45rem;
+    }
+
+    .cardTitle {
+        font-size: 1.8rem;
+    }
 }
 
-@media only screen and (max-width: 600px){ /* MOBILE */
-    .container{
+@media only screen and (max-width: 600px) {
+
+    /* MOBILE */
+    .container {
         display: flex;
         gap: 1rem;
         flex-direction: column;
         align-items: center !important;
     }
-    .cardsSection{
-        justify-content: center !important;
+
+    .card {
+        width: 25rem;
+        height: 35rem;
     }
-    .videoWrapper{
+
+    .cardsSection {
+        justify-content: center !important;
+        padding: .5rem;
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    .videoWrapper {
         width: 90vw;
         height: 20rem;
     }

@@ -1,5 +1,8 @@
 /* PC */
 @media only screen and (min-width: 1024px){
+    #pageTitle{
+        font-size: 4rem;
+    }
     .title{font-size: 2.5rem;}
     .spanText{font-size: 1.8rem;}
     .card{
