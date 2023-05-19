@@ -137,3 +137,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.fp-watermark{
+    display: none !important;
+}
