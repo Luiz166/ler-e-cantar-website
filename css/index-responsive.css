@@ -35,8 +35,7 @@
     }
 
     .card:hover {
-        width: 30rem;
-        height: 45rem;
+        transform: scale(1.1);
     }
 
     .cardTitle {
