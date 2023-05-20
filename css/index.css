@@ -13,6 +13,11 @@
     transition: all 200ms ease-in-out;
 }
 
+.card{
+    width: 25rem;
+    height: 35rem;
+}
+
 .cardsSection{
     flex-wrap: wrap;
     justify-content: flex-start !important;
