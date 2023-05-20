@@ -71,10 +71,7 @@
     cursor: pointer;
 }
 
-.galleryElement video:hover{
-    transition: 200ms ease-in-out;
-    transform: scale(1.1);
-}
+
 
 .galleryElement img{
     object-fit: cover;
@@ -83,10 +80,7 @@
     cursor: pointer;
 }
 
-.galleryElement img:hover{
-    transition: 200ms linear;
-    transform: scale(1.1);
-}
+
 
 .galleryElement .active{
     position: fixed;

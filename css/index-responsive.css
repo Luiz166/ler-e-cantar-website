@@ -41,6 +41,14 @@
     .cardTitle {
         font-size: 1.8rem;
     }
+    .galleryElement img:hover{
+        transition: 200ms linear;
+        transform: scale(1.1);
+    }
+    .galleryElement video:hover{
+        transition: 200ms ease-in-out;
+        transform: scale(1.1);
+    }
 }
 
 @media only screen and (max-width: 600px) {
