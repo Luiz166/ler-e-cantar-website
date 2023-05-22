@@ -7,11 +7,11 @@ video.forEach(play => play.addEventListener('click', () =>{
     if(play.classList.contains('active')){
         play.play();
     }
-    else if(play.currentTime == play.duration){
+    else if(play.currentTime == play.duration){ //isso vai pausar e voltar o video ao começo, quando ele ja estiver finalizado
         play.pause();
         play.currentTime = 0;
     }
-    else{
+    else{ //vai pausar o video no mesmo instante em que foi pausado
         play.pause();
         play.currentTime = play.currentTime();
     }
